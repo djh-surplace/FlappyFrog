@@ -1,6 +1,6 @@
 (function(){
 
-var TEXT_LOADING = 'Loading...\n\n历史的行程: %s %';
+var TEXT_LOADING = 'Loading...\n\n你后那么大声作甚: %s %';
 var TEXT_SCORE = '+ %s s';
 var TEXT_GAME_OVER = '我为长者续命%s秒\n志己的生命减少%s秒\n而且这个效率efficiency: %s%';
 var TEXT_TRY_AGAIN = '重新续';
@@ -10,13 +10,13 @@ var TEXT_TOTAL_TIME_ELAPSED = '累计被续 %s 秒';
 var TEXT_TINY_TIPS = '[微小的提示]\n为了获得坠好的游戏体验，请：\n打开音量\n穿上红色的衣服';
 var TEXT_FONT = '"Segoe UI", "Microsoft YaHei", 宋体, sans-serif'; // 插入宋体
 
-var _gravity = 40,
+var _gravity = 10,
   _speed = 390,
   _flap = 620,
   _spawnRate = 1 / 1.2,
   _opening = 260;
 
-var _game;
+var _game; //这是什么
 
 var _baseUrl = '';
 
@@ -91,6 +91,9 @@ var _totalTimeElapsedText,
 
 var _debug = false;
 
+  
+//各种函数来了 
+ 
 function showLoadingText(percent) {
   _loadingText.setText(TEXT_LOADING.replace('%s', percent));
 }
