@@ -10,7 +10,7 @@ var TEXT_TOTAL_TIME_ELAPSED = '累计被续 %s 秒';
 var TEXT_TINY_TIPS = '[微小的提示]\n为了获得坠好的游戏体验，请：\n打开音量\n穿上红色的衣服';
 var TEXT_FONT = '"Segoe UI", "Microsoft YaHei", 宋体, sans-serif'; // 插入宋体
 
-var _gravity = 10,
+var _gravity = 40,
   _speed = 390,
   _flap = 620,
   _spawnRate = 1 / 1.2,
